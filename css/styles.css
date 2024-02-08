@@ -46,7 +46,7 @@ h2{
 .cont-logo{
     width: 150px;
     padding: 1rem;
-    justify-content: center}
+    justify-content: right}
 
 .cont-logo img{
     width: 100%}
@@ -171,13 +171,6 @@ a:hover{
     overflow: hidden;
     align-items: center}
 
-.platillo{
-    display: flex;
-    padding-top: 30px;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 100px}
-
 .texto{
     width: 50%;
     text-align: justify;
@@ -209,10 +202,14 @@ footer img{
 
 /*CARRUSEL Y BANNERS DE PAGINAS*/
 .carousel-item{
+    height: 300}
+
+.carousel-inner{
     height: 400px}
     
 .navbar1{
     background-image: url(../assets/xilo.jpg);
+    background-repeat: no-repeat;
     background-size:cover;
     background-position:initial}
 
@@ -237,7 +234,7 @@ footer img{
 /*MEDIA QUERY MOBILE*/
 @media (min-width: 320px) and (max-width:480px){
 .contenedor{
-    background-color: #ffffff}
+    background-color: #538056}
 
 .title{
     font-size: 25px;
@@ -256,7 +253,7 @@ p{
 
 .navegator nav ul li{
     list-style: none;
-    font-size: 7px;
+    font-size: 13px;
     align-items: center}
 
 .navegadores{
@@ -284,16 +281,16 @@ p{
     padding: 1rem;
     justify-content: center}
         
-.cont-logo img{
-    width: 100%}
+.carousel-inner{
+    height: 200px}
 
-.carousel-inder{
-    height: 200px}}
+    .carousel-item{
+        height: 200px}}
 
 /*MEDIA QUERY TABLET*/
 @media (min-width:481px) and (max-width: 780px){
 .contenedor{
-    background-color: #ffffff}
+    background-color: #c99347}
 
 .contenido-principal{
     margin: 30px 0 30px;
@@ -326,11 +323,14 @@ p{
     
 .navegator nav ul li{
     list-style: none;
-    font-size: 10px;}
+    font-size: 13px;}
         
 .navegator nav ul{
     display: flex;
     gap: 1em}
 
-.carousel-inder{
+.carousel-inner{
+    height: 250px}
+
+.carousel-item{
     height: 200px}}
