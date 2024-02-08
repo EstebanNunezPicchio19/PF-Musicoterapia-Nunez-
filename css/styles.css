@@ -287,7 +287,7 @@ p{
 .cont-logo img{
     width: 100%}
 
-.carousel-inner{
+.carousel-inder{
     height: 200px}}
 
 /*MEDIA QUERY TABLET*/
@@ -332,5 +332,5 @@ p{
     display: flex;
     gap: 1em}
 
-.carousel-inner{
+.carousel-inder{
     height: 200px}}
