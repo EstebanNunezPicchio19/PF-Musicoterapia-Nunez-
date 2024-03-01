@@ -1,0 +1,52 @@
+/*FOOTER*/
+footer{
+    background-color:  $color-white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width:auto;
+    
+    ul li{
+        list-style: none;
+
+        a{
+            text-decoration: none;
+            color: $color-light;
+        }
+    }
+}
+
+footer img{
+    width: 2rem;
+    margin-bottom: 60px}
+
+/*CARRUSEL Y BANNERS DE PAGINAS*/
+.carousel-item{
+    height: 300}
+
+.carousel-inner{
+    height: 400px}
+    
+.navbar1{
+    background-image: url(../assets/xilo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:initial}
+
+.navbar2{
+    background-image: url(../assets/cocobongo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:initial}
+
+.navbar3{
+    background-image: url(../assets/consultorio.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:initial}
+
+.navbar4{
+    background-image: url(../assets/violino2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:initial}

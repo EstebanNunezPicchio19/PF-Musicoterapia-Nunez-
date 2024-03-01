@@ -1,0 +1,86 @@
+/* Main */
+.contenido-principal{
+    margin: 30px 0 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify}
+
+.contenido-principalis{
+    margin: 30px 0 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify}
+
+.mainmarging{
+    margin-top: 2rem}
+
+.title{
+    font-weight: 400;
+    color: $color-black;
+    text-align: center}
+
+.sub-title{
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center}
+
+.violoncello{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    flex-flow: wrap;
+    text-decoration: none}
+
+a{
+    color: $color-black;
+    text-decoration: none}
+
+a:hover{
+    color: $color-lig}
+
+.violin{
+    width: 250px;
+    height: 18rem;
+    overflow: hidden;
+    text-align: center;
+
+    img{
+        width: 100%;
+
+        p{
+            line-height: 36px
+                }
+            }
+        }
+
+.border{
+    border: 1px solid $color-black}
+
+/*GALERIA*/
+.title-galeria{
+    letter-spacing: 7px}
+
+.pentagrama{
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+
+    img{
+        width: 10%;
+        height: 60px;
+        overflow: hidden;
+        align-items: center
+        }
+    }
+
+.texto{
+    width: 50%;
+    text-align: justify;
+    align-items: center}
+
+.text{
+    width: 50%;
+    text-align: justify;
+    align-items: center}

@@ -1,0 +1,100 @@
+/* Header */
+h1{
+    font-size: 80px;
+    color: $color-brown;
+    text-decoration-color: $color-black}
+
+h5{
+    font-style: italic}
+
+h2{
+    font-size: 35px}
+
+.musical{
+    background-image: url(../assets/violino.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:initial}
+
+.navegator{
+    background-color: $color-white;
+    display: flex;
+    justify-content:center;
+    align-items:center
+
+    nav{
+        background-color: $color-white;
+
+    ul{
+        display: flex;
+        gap: 1em;
+    
+        li{
+            list-style: none;
+
+            a{    
+                text-decoration: none;
+                color: $color-black;
+                }
+            }
+         }
+      }
+    }
+
+/*Logo*/
+.cont-logo{
+    width: 150px;
+    padding: 1rem;
+    justify-content: right;
+
+    img{
+        width: 100%}
+    }
+
+.ruben{
+@include Ruben}
+
+.clara{
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center}
+
+.carina{
+    width: 50%;
+
+    p{
+        font-size: 4rem;
+        text-align: center;
+        color: $color-white
+        }
+    }
+
+
+/*FORM-BANNER*/
+.sebastian{
+    margin-left: 350px;
+    margin-bottom: 100px;
+    width: 40%;
+    background-color: $color-cinza;
+    display: flex;
+    flex-direction: column;
+    align-items: center}
+
+.camila{
+    margin-left: 350px;
+    margin-bottom: 100px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center}
+
+.eugenia{
+    background-color: $color-light;
+    color: $color-white;
+    padding: 0.4rem;
+    margin: 0.6rem;
+    width: 100%;
+    border-radius: 6px;
+    border: none}
