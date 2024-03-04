@@ -4,7 +4,7 @@ h1{
     color: $color-brown;
     text-decoration-color: $color-black}
 
-h5{
+h3{
     font-style: italic}
 
 h2{
@@ -20,7 +20,7 @@ h2{
     background-color: $color-white;
     display: flex;
     justify-content:center;
-    align-items:center
+    align-items:normal;
 
     nav{
         background-color: $color-white;
@@ -29,16 +29,16 @@ h2{
         display: flex;
         gap: 1em;
     
-        li{
-            list-style: none;
+    li{
+        list-style: none;
 
-            a{    
-                text-decoration: none;
-                color: $color-black;
+    a{    
+        text-decoration: none;
+        color: $color-black;
                 }
-            }
-         }
-      }
+             }
+          }
+       }
     }
 
 /*Logo*/
@@ -52,7 +52,11 @@ h2{
     }
 
 .ruben{
-@include Ruben}
+    @include Ruben;
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center}
 
 .clara{
     height: 20rem;

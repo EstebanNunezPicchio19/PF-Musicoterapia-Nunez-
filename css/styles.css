@@ -320,14 +320,14 @@ p{
     font-size: 15px;
     text-align: justify;
     width: 100%}
-    
-.navegator nav ul li{
-    list-style: none;
-    font-size: 13px;}
-        
+
 .navegator nav ul{
     display: flex;
     gap: 1em}
+
+.navegator nav ul li{
+        list-style: none;
+        font-size: 13px;}
 
 .carousel-inner{
     height: 250px}

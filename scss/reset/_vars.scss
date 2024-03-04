@@ -7,3 +7,15 @@ $color-white: #ffffff;
 $color-light: #743a11;
 $color-cinza: #8f565652;
 $color-lig:   #cac9c9;
+
+//MAPAS
+$redes-sociales:(
+    instagram: #910583,
+    whatsapp: #2c7a41,
+    facebook: rgb(5, 5, 74));
+
+@each $redes, $color in $redes-sociales{
+    .bi-#{$redes}{
+        color: $color; 
+    }
+}

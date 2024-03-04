@@ -16,7 +16,7 @@
 
 .title{
     font-weight: 400;
-    color: $color-black;
+    color: #050505;
     text-align: center}
 
 .sub-title{
@@ -32,11 +32,11 @@
     text-decoration: none}
 
 a{
-    color: $color-black;
+    color: #050505;
     text-decoration: none}
 
 a:hover{
-    color: $color-lig}
+    color: #cac9c9}
 
 .violin{
     width: 250px;
@@ -46,15 +46,35 @@ a:hover{
 
     img{
         width: 100%;
+    
+    animation-name: violinmovie;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 
-        p{
-            line-height: 36px
-                }
-            }
+    @keyframes violinmovie{
+        0%{
+        opacity: 0%;
+        transform: translateY(0px)
         }
 
+        50%{
+        opacity: 0,5%;
+        transform: translateY(-30px)
+        }
+
+        100%{   
+        opacity: 1;
+        transform: translateY(0px)
+                            }
+                        }
+                    }
+                }
+
+p{
+    line-height: 36px}
+
 .border{
-    border: 1px solid $color-black}
+    border: 1px solid #000000}
 
 /*GALERIA*/
 .title-galeria{
@@ -71,9 +91,8 @@ a:hover{
         width: 10%;
         height: 60px;
         overflow: hidden;
-        align-items: center
-        }
-    }
+        align-items: center}
+}
 
 .texto{
     width: 50%;
