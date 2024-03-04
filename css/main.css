@@ -23,10 +23,10 @@
     width: 100%;
   }
   .navegator {
-    font-size: 10px nav ul li;
-    font-size-list-style: none;
-    font-size-font-size: 13px;
-    font-size-align-items: center;
+    font-size: 10px;
+    font-size list style: none;
+    font-size font-size: 13px;
+    font-size align-items: center;
   }
   .navegadores {
     position: static;
@@ -69,7 +69,7 @@
     width: 150px;
     padding: 1rem;
     justify-content: center img;
-    justify-content-width: 100%;
+    justify-content width: 100%;
   }
   .title {
     font-size: 30px;
@@ -89,8 +89,8 @@
   .navegator nav ul {
     display: flex;
     gap: 1em li;
-    gap-list-style: none;
-    gap-font-size: 13px;
+    gap list style: none;
+    gap font-size: 13px;
   }
   .carousel-inner {
     height: 250px;
