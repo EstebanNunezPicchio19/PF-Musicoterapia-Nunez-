@@ -411,9 +411,9 @@ footer img {
   }
   .navegator {
     font-size: 10px nav ul li;
-    font-size-list-style: none;
-    font-size-font-size: 13px;
-    font-size-align-items: center;
+    font-size list-style: none;
+    font-size font-size: 13px;
+    font-size align-items: center;
   }
   .navegadores {
     position: static;
@@ -477,8 +477,8 @@ footer img {
   .navegator nav ul {
     display: flex;
     gap: 1em li;
-    gap-list-style: none;
-    gap-font-size: 13px;
+    gap list-style: none;
+    gap font-size: 13px;
   }
   .carousel-inner {
     height: 250px;
