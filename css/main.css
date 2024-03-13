@@ -112,18 +112,13 @@
 }
 
 /* Header */
-h1 {
-  font-size: 80px;
-  color: #923d3d;
-  text-decoration-color: #000000;
-}
 
-h3 {
-  font-style: italic;
+h1 {
+  font-size: 35px;
 }
 
 h2 {
-  font-size: 35px;
+  font-style: italic;
 }
 
 .musical {
@@ -152,6 +147,9 @@ h2 {
 .navegator nav ul li a {
   text-decoration: none;
   color: #000000;
+}
+.nav-link{
+  color: black;
 }
 
 /*Logo*/
@@ -445,6 +443,7 @@ footer img {
   .carousel-item {
     height: 200px;
   }
+
 }
 /*MEDIA QUERY TABLET*/
 @media (min-width: 481px) and (max-width: 780px) {

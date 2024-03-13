@@ -4,11 +4,11 @@ h1{
     color: $color-brown;
     text-decoration-color: $color-black}
 
+h2{
+        font-size: 35px}
+
 h3{
     font-style: italic}
-
-h2{
-    font-size: 35px}
 
 .musical{
     background-image: url(../assets/violino.jpg);
@@ -40,6 +40,9 @@ h2{
           }
        }
     }
+
+.nav-link{
+    color: black}
 
 /*Logo*/
 .cont-logo{

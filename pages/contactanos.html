@@ -14,7 +14,7 @@
     <!--SCSS-->
     <link rel="stylesheet" href="../css/main.css">
 
-    <title>Qué hacemos</title>
+    <title>Contacto</title>
 </head>
 
 <body>
@@ -22,12 +22,12 @@
         <header class="navbar2">
             <section class="navegator">
                 <nav class="nav">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link" href="../index.html">Inicio</a>
                     <a class="nav-link" href="./que-es.html">Musicoterapia</a>
-                    <a class="nav-link" href="./consultorio.html">Consultorio</a>
                     <a class="nav-link" href="./material.html">Material</a>
+                    <a class="nav-link" href="./consultorio.html">Consultorio</a>
+                    <a class="nav-link active" aria-current="page" href="./contactanos.html">Contacto</a>
                 </nav>
-
             </section>
             <section class="navegator">
                 <div class="cont-logo">
@@ -35,7 +35,6 @@
                 </div>
             </section>
         </header>
-
         <main class="contenido-principal">
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -45,38 +44,36 @@
                 </div>
             </div>
             <br>
+            <h1 class="title">Contactanos</h1>
+            <h2 class="sub-title">Dejanos tu consulta</h2>
             <br>
-            <form>
-                <div class="consulta">
-                    <label>e-mail de contacto</label><br>
-                    <input type="email"><br>
-                    <label>Escribinos tu consulta</label><br>
-                    <input type="text">
-                </div>
-                <br>
-                <button type="submit" class="eugenia">Enviar</button>
-            </form>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">E-mail de contacto</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <br>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Escribinos tu consulta</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+            </div>
         </main>
-
         <section class="violoncello">
             <div class="violin">
                 <img src="../assets/violino.jpg" alt="inicio">
-
             </div>
             <div class="violin">
                 <img src="../assets/violino2.jpg" alt="material">
-
             </div>
             <div class="violin">
                 <img src="../assets/consultorio.jpg" alt="consultorio">
-
             </div>
             <div class="violin">
                 <img src="../assets/xilo.jpg" alt="contacto">
-
             </div>
         </section>
-
         <footer>
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
